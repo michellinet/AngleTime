@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import Darwin
+
 @testable import AngleTime
 
 class AngleTimeTests: XCTestCase {
@@ -21,16 +23,16 @@ class AngleTimeTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    let converter = AngleConverter()
+    
+    func testBaseCase() {
+        let calculatedAngle = converter.convert(hour: 12, minute: 0)
+        XCTAssertEqual(calculatedAngle, 0)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testOneOClock() {
+        let calcualtedAngle = converter.convert(hour: 1, minute: 0)
+        XCTAssertEqual(calcualtedAngle, Double.pi/6)
     }
     
 }

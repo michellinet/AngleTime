@@ -14,6 +14,7 @@
 		DF7521531EF1B93400C91AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7521511EF1B93400C91AF0 /* LaunchScreen.storyboard */; };
 		DF75215E1EF1B93500C91AF0 /* AngleTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF75215D1EF1B93500C91AF0 /* AngleTimeTests.swift */; };
 		DF7521691EF1B93500C91AF0 /* AngleTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7521681EF1B93500C91AF0 /* AngleTimeUITests.swift */; };
+		DF7521771EF1BB1B00C91AF0 /* AngleConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7521761EF1BB1B00C91AF0 /* AngleConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DF7521641EF1B93500C91AF0 /* AngleTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngleTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7521681EF1B93500C91AF0 /* AngleTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleTimeUITests.swift; sourceTree = "<group>"; };
 		DF75216A1EF1B93500C91AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7521761EF1BB1B00C91AF0 /* AngleConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AngleConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				DF7521481EF1B93400C91AF0 /* AppDelegate.swift */,
 				DF75214A1EF1B93400C91AF0 /* ViewController.swift */,
+				DF7521761EF1BB1B00C91AF0 /* AngleConverter.swift */,
 				DF75214C1EF1B93400C91AF0 /* Main.storyboard */,
 				DF75214F1EF1B93400C91AF0 /* Assets.xcassets */,
 				DF7521511EF1B93400C91AF0 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF75214B1EF1B93400C91AF0 /* ViewController.swift in Sources */,
+				DF7521771EF1BB1B00C91AF0 /* AngleConverter.swift in Sources */,
 				DF7521491EF1B93400C91AF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
