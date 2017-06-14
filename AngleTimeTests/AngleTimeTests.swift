@@ -30,9 +30,36 @@ class AngleTimeTests: XCTestCase {
         XCTAssertEqual(calculatedAngle, 0)
     }
     
-    func testOneOClock() {
+    func testOneHundred() {
         let calcualtedAngle = converter.convert(hour: 1, minute: 0)
         XCTAssertEqual(calcualtedAngle, Double.pi/6)
     }
     
+    func testTwoHundred() {
+        let calcualtedAngle = converter.convert(hour: 2, minute: 0)
+        XCTAssertEqual(calcualtedAngle, Double.pi/3)
+    }
+    
+    func testThirteenHundred() {
+        let calculatedAngle = converter.convert(hour: 13, minute: 0)
+        XCTAssertEqual(calculatedAngle, Double.pi/6)
+    }
+    
+    func testThirteenThirteen() {
+        let calculatedAngle = converter.convert(hour: 13, minute: 13)
+        XCTAssertEqual(calculatedAngle.roundTo(places: 4), 0.7243)
+    }
+    
+    func testThirteenThirtyFive() {
+        let calculatedAngle = converter.convert(hour: 13, minute: 35)
+        XCTAssertEqual(calculatedAngle.roundTo(places: 4), 2.8362)
+    }
+    
+}
+
+extension Double {
+    func roundTo(places:Int) -> Double {
+        let divisor = pow(10.0, Double(places))
+        return (self * divisor).rounded() / divisor
+    }
 }
