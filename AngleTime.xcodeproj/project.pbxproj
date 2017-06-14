@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF7521491EF1B93400C91AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7521481EF1B93400C91AF0 /* AppDelegate.swift */; };
+		DF75214B1EF1B93400C91AF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF75214A1EF1B93400C91AF0 /* ViewController.swift */; };
+		DF75214E1EF1B93400C91AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF75214C1EF1B93400C91AF0 /* Main.storyboard */; };
+		DF7521501EF1B93400C91AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF75214F1EF1B93400C91AF0 /* Assets.xcassets */; };
+		DF7521531EF1B93400C91AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF7521511EF1B93400C91AF0 /* LaunchScreen.storyboard */; };
+		DF75215E1EF1B93500C91AF0 /* AngleTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF75215D1EF1B93500C91AF0 /* AngleTimeTests.swift */; };
+		DF7521691EF1B93500C91AF0 /* AngleTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7521681EF1B93500C91AF0 /* AngleTimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF75215A1EF1B93400C91AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF75213D1EF1B93400C91AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7521441EF1B93400C91AF0;
+			remoteInfo = AngleTime;
+		};
+		DF7521651EF1B93500C91AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF75213D1EF1B93400C91AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7521441EF1B93400C91AF0;
+			remoteInfo = AngleTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF7521451EF1B93400C91AF0 /* AngleTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngleTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7521481EF1B93400C91AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF75214A1EF1B93400C91AF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF75214D1EF1B93400C91AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF75214F1EF1B93400C91AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7521521EF1B93400C91AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF7521541EF1B93400C91AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7521591EF1B93400C91AF0 /* AngleTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngleTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF75215D1EF1B93500C91AF0 /* AngleTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleTimeTests.swift; sourceTree = "<group>"; };
+		DF75215F1EF1B93500C91AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7521641EF1B93500C91AF0 /* AngleTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngleTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7521681EF1B93500C91AF0 /* AngleTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleTimeUITests.swift; sourceTree = "<group>"; };
+		DF75216A1EF1B93500C91AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7521421EF1B93400C91AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7521561EF1B93400C91AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7521611EF1B93500C91AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF75213C1EF1B93400C91AF0 = {
+			isa = PBXGroup;
+			children = (
+				DF7521471EF1B93400C91AF0 /* AngleTime */,
+				DF75215C1EF1B93400C91AF0 /* AngleTimeTests */,
+				DF7521671EF1B93500C91AF0 /* AngleTimeUITests */,
+				DF7521461EF1B93400C91AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7521461EF1B93400C91AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7521451EF1B93400C91AF0 /* AngleTime.app */,
+				DF7521591EF1B93400C91AF0 /* AngleTimeTests.xctest */,
+				DF7521641EF1B93500C91AF0 /* AngleTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7521471EF1B93400C91AF0 /* AngleTime */ = {
+			isa = PBXGroup;
+			children = (
+				DF7521481EF1B93400C91AF0 /* AppDelegate.swift */,
+				DF75214A1EF1B93400C91AF0 /* ViewController.swift */,
+				DF75214C1EF1B93400C91AF0 /* Main.storyboard */,
+				DF75214F1EF1B93400C91AF0 /* Assets.xcassets */,
+				DF7521511EF1B93400C91AF0 /* LaunchScreen.storyboard */,
+				DF7521541EF1B93400C91AF0 /* Info.plist */,
+			);
+			path = AngleTime;
+			sourceTree = "<group>";
+		};
+		DF75215C1EF1B93400C91AF0 /* AngleTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF75215D1EF1B93500C91AF0 /* AngleTimeTests.swift */,
+				DF75215F1EF1B93500C91AF0 /* Info.plist */,
+			);
+			path = AngleTimeTests;
+			sourceTree = "<group>";
+		};
+		DF7521671EF1B93500C91AF0 /* AngleTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7521681EF1B93500C91AF0 /* AngleTimeUITests.swift */,
+				DF75216A1EF1B93500C91AF0 /* Info.plist */,
+			);
+			path = AngleTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7521441EF1B93400C91AF0 /* AngleTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF75216D1EF1B93500C91AF0 /* Build configuration list for PBXNativeTarget "AngleTime" */;
+			buildPhases = (
+				DF7521411EF1B93400C91AF0 /* Sources */,
+				DF7521421EF1B93400C91AF0 /* Frameworks */,
+				DF7521431EF1B93400C91AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngleTime;
+			productName = AngleTime;
+			productReference = DF7521451EF1B93400C91AF0 /* AngleTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7521581EF1B93400C91AF0 /* AngleTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7521701EF1B93500C91AF0 /* Build configuration list for PBXNativeTarget "AngleTimeTests" */;
+			buildPhases = (
+				DF7521551EF1B93400C91AF0 /* Sources */,
+				DF7521561EF1B93400C91AF0 /* Frameworks */,
+				DF7521571EF1B93400C91AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF75215B1EF1B93400C91AF0 /* PBXTargetDependency */,
+			);
+			name = AngleTimeTests;
+			productName = AngleTimeTests;
+			productReference = DF7521591EF1B93400C91AF0 /* AngleTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF7521631EF1B93500C91AF0 /* AngleTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7521731EF1B93500C91AF0 /* Build configuration list for PBXNativeTarget "AngleTimeUITests" */;
+			buildPhases = (
+				DF7521601EF1B93500C91AF0 /* Sources */,
+				DF7521611EF1B93500C91AF0 /* Frameworks */,
+				DF7521621EF1B93500C91AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7521661EF1B93500C91AF0 /* PBXTargetDependency */,
+			);
+			name = AngleTimeUITests;
+			productName = AngleTimeUITests;
+			productReference = DF7521641EF1B93500C91AF0 /* AngleTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF75213D1EF1B93400C91AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Michelline Tran";
+				TargetAttributes = {
+					DF7521441EF1B93400C91AF0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5QNKR8RC4W;
+						ProvisioningStyle = Automatic;
+					};
+					DF7521581EF1B93400C91AF0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5QNKR8RC4W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF7521441EF1B93400C91AF0;
+					};
+					DF7521631EF1B93500C91AF0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5QNKR8RC4W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF7521441EF1B93400C91AF0;
+					};
+				};
+			};
+			buildConfigurationList = DF7521401EF1B93400C91AF0 /* Build configuration list for PBXProject "AngleTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF75213C1EF1B93400C91AF0;
+			productRefGroup = DF7521461EF1B93400C91AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7521441EF1B93400C91AF0 /* AngleTime */,
+				DF7521581EF1B93400C91AF0 /* AngleTimeTests */,
+				DF7521631EF1B93500C91AF0 /* AngleTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7521431EF1B93400C91AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7521531EF1B93400C91AF0 /* LaunchScreen.storyboard in Resources */,
+				DF7521501EF1B93400C91AF0 /* Assets.xcassets in Resources */,
+				DF75214E1EF1B93400C91AF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7521571EF1B93400C91AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7521621EF1B93500C91AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7521411EF1B93400C91AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF75214B1EF1B93400C91AF0 /* ViewController.swift in Sources */,
+				DF7521491EF1B93400C91AF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7521551EF1B93400C91AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF75215E1EF1B93500C91AF0 /* AngleTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7521601EF1B93500C91AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7521691EF1B93500C91AF0 /* AngleTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF75215B1EF1B93400C91AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7521441EF1B93400C91AF0 /* AngleTime */;
+			targetProxy = DF75215A1EF1B93400C91AF0 /* PBXContainerItemProxy */;
+		};
+		DF7521661EF1B93500C91AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7521441EF1B93400C91AF0 /* AngleTime */;
+			targetProxy = DF7521651EF1B93500C91AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF75214C1EF1B93400C91AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF75214D1EF1B93400C91AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF7521511EF1B93400C91AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF7521521EF1B93400C91AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF75216B1EF1B93500C91AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF75216C1EF1B93500C91AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF75216E1EF1B93500C91AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5QNKR8RC4W;
+				INFOPLIST_FILE = AngleTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michellinetran.AngleTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF75216F1EF1B93500C91AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5QNKR8RC4W;
+				INFOPLIST_FILE = AngleTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michellinetran.AngleTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DF7521711EF1B93500C91AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5QNKR8RC4W;
+				INFOPLIST_FILE = AngleTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michellinetran.AngleTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngleTime.app/AngleTime";
+			};
+			name = Debug;
+		};
+		DF7521721EF1B93500C91AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5QNKR8RC4W;
+				INFOPLIST_FILE = AngleTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michellinetran.AngleTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngleTime.app/AngleTime";
+			};
+			name = Release;
+		};
+		DF7521741EF1B93500C91AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5QNKR8RC4W;
+				INFOPLIST_FILE = AngleTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michellinetran.AngleTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AngleTime;
+			};
+			name = Debug;
+		};
+		DF7521751EF1B93500C91AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5QNKR8RC4W;
+				INFOPLIST_FILE = AngleTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michellinetran.AngleTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AngleTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7521401EF1B93400C91AF0 /* Build configuration list for PBXProject "AngleTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF75216B1EF1B93500C91AF0 /* Debug */,
+				DF75216C1EF1B93500C91AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF75216D1EF1B93500C91AF0 /* Build configuration list for PBXNativeTarget "AngleTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF75216E1EF1B93500C91AF0 /* Debug */,
+				DF75216F1EF1B93500C91AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF7521701EF1B93500C91AF0 /* Build configuration list for PBXNativeTarget "AngleTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7521711EF1B93500C91AF0 /* Debug */,
+				DF7521721EF1B93500C91AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF7521731EF1B93500C91AF0 /* Build configuration list for PBXNativeTarget "AngleTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7521741EF1B93500C91AF0 /* Debug */,
+				DF7521751EF1B93500C91AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF75213D1EF1B93400C91AF0 /* Project object */;
+}
