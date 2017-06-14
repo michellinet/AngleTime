@@ -28,9 +28,14 @@ class AngleConverter {
         var minuteHand = 0.0
         minuteHand = Double(minute) * Double.pi/30.0
         
-        //MARK: Finding Angle Between
+        //MARK: Finding Angle Between Minute & Hour Hand
         var angle = 0.0
         angle = abs(hourHand - minuteHand)
+        
+        //Converts to acute angle, if necessary
+        if angle > Double.pi {
+            angle = abs(angle - 2 * Double.pi)
+        }
 
         return angle
     }
