@@ -520,6 +520,7 @@
 				DF75216F1EF1B93500C91AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF7521701EF1B93500C91AF0 /* Build configuration list for PBXNativeTarget "AngleTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +529,7 @@
 				DF7521721EF1B93500C91AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF7521731EF1B93500C91AF0 /* Build configuration list for PBXNativeTarget "AngleTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +538,7 @@
 				DF7521751EF1B93500C91AF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
