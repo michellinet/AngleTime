@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF35A37E1EFF72090022A5A7 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF35A37D1EFF72090022A5A7 /* GraphView.swift */; };
 		DF7521491EF1B93400C91AF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7521481EF1B93400C91AF0 /* AppDelegate.swift */; };
 		DF75214B1EF1B93400C91AF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF75214A1EF1B93400C91AF0 /* ViewController.swift */; };
 		DF75214E1EF1B93400C91AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF75214C1EF1B93400C91AF0 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF35A37D1EFF72090022A5A7 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		DF7521451EF1B93400C91AF0 /* AngleTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngleTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7521481EF1B93400C91AF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF75214A1EF1B93400C91AF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				DF7521481EF1B93400C91AF0 /* AppDelegate.swift */,
 				DF75214A1EF1B93400C91AF0 /* ViewController.swift */,
+				DF35A37D1EFF72090022A5A7 /* GraphView.swift */,
 				DF7521761EF1BB1B00C91AF0 /* AngleConverter.swift */,
 				DF75214C1EF1B93400C91AF0 /* Main.storyboard */,
 				DF75214F1EF1B93400C91AF0 /* Assets.xcassets */,
@@ -268,6 +271,7 @@
 				DF75214B1EF1B93400C91AF0 /* ViewController.swift in Sources */,
 				DF7521771EF1BB1B00C91AF0 /* AngleConverter.swift in Sources */,
 				DF7521491EF1B93400C91AF0 /* AppDelegate.swift in Sources */,
+				DF35A37E1EFF72090022A5A7 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
