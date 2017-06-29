@@ -16,5 +16,6 @@ class ViewController: UIViewController {
         let graphView = GraphView()
         graphView.frame = view.frame
         view.addSubview(graphView)
+        graphView.backgroundColor = UIColor.white
     }
 }

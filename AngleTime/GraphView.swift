@@ -13,7 +13,7 @@ class GraphView: UIView {
     override func draw(_ rect: CGRect) {
         let minimumAngles = calculateMinimumAngle(with: 15)
         let path = pathForAngles(using: minimumAngles, rect: rect)
-        UIColor.white.setStroke()
+ //       UIColor.white.setStroke()
         path.stroke()
         
     }
@@ -38,13 +38,14 @@ class GraphView: UIView {
         path.move(to: start)
         
         for i in 0...values.count - 1 {
-            let point = CGPoint(x: Double(i), y: Double(rect.height) - values[i])
+            let point = CGPoint(x: Double(Double(rect.width)/96.0 * Double((i))),
+                                y: Double(rect.height) - values[i] * 50)
             
             path.addLine(to: point)
         }
         
-        path.lineWidth = 0.1
-    
+        path.lineWidth = 1
+        
         return path
     }
     
